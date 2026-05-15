@@ -1,0 +1,14 @@
+// Kodingizni shu yerga yozing
+console.log("Salom! Kodingiz muvaffaqiyatli ishga tushdi.");
+console.log("Natija: " + (10 + 20)); // Misol uchun
+
+// Oynani to'xtatib turuvchi qism:
+console.log("\n-------------------------------------------");
+console.log("Oynani yopish uchun klaviaturadan istalgan tugmani bosing...");
+
+// Bu qator oynani majburan ushlab turadi
+setInterval(() => {}, 1000); 
+
+process.stdin.setRawMode(true);
+process.stdin.resume();
+process.stdin.on('data', process.exit);
